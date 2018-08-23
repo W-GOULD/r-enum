@@ -1,28 +1,28 @@
-# r-enum
-##RSH Enumeration
-###RSH Run Commands
-		```rsh <target> <command>```
+# R-ENUM
+## RSH Enumeration
+## RSH Run Commands
+		``` rsh <target> <command> ```
 
-###Metasploit RSH Login Scanner
-```	auxiliary/scanner/rservices/rsh_login```
+### Metasploit RSH Login Scanner
+```	auxiliary/scanner/rservices/rsh_login ```
 
-###rusers Show Logged in Users
-```	rusers -al 192.168.2.1```
+### rusers Show Logged in Users
+```	rusers -al 192.168.2.1 ```
 
-###rusers scan whole Subnet
+### rusers scan whole Subnet
 ```	rlogin -l <user> <target>
 	e.g rlogin -l root TARGET-SUBNET/24
 ```
-###Finger Enumeration
+### Finger Enumeration
 ```	finger @TARGET-IP
 ```
-###Finger a Specific Username
+### Finger a Specific Username
 ```	finger batman@TARGET-IP 
 ```
-###Solaris bug that shows all logged in users:
+### Solaris bug that shows all logged in users:
 ```	finger 0@host  
 ```
-###SunOS: RPC services allow user enum:
+### SunOS: RPC services allow user enum:
 ```	$ rusers # users logged onto LAN
 
 	finger 'a b c d e f g h'@sunhost 
