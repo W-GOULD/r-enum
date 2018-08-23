@@ -1,13 +1,13 @@
 # R-ENUM
-## RSH Enumeration
-## RSH Run Commands
-		``` rsh <target> <command> ```
+### RSH Enumeration
+### RSH Run Commands
+``` rsh <target> <command> ```
 
 ### Metasploit RSH Login Scanner
 ```	auxiliary/scanner/rservices/rsh_login ```
 
 ### rusers Show Logged in Users
-```	rusers -al 192.168.2.1 ```
+```	rusers -al 192.168.2.1  ```
 
 ### rusers scan whole Subnet
 ```	rlogin -l <user> <target>
